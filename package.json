@@ -1,6 +1,6 @@
 {
   "name": "saga-event-observer",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Use saga-observables to provide a simple way to create window event listeners for your sagas",
   "main": "dist/saga-event-observer.js",
   "author": "Braden R. Napier",
@@ -17,8 +17,16 @@
     "redux-saga",
     "saga-event",
     "saga-observable",
-    "observable"
+    "observable",
+    "window.addEventListener"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dash-OS/saga-event-observer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dash-OS/saga-event-observer/issues"
+  },
   "devDependencies": {
     "app-root-dir": "^1.0.2",
     "babel-cli": "^6.24.1",
@@ -39,6 +47,7 @@
     "yargs": "^8.0.1"
   },
   "dependencies": {
-    "saga-observable": "^1.0.2"
+    "redux-saga": "^0.15.3",
+    "saga-observable": "^1.0.4"
   }
 }
